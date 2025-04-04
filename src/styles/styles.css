@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.header-home ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.images-login{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
