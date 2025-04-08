@@ -1,17 +1,84 @@
+@import url(global.css);
+
 header{
     display: flex;
+    margin: 40px 100px;
+    align-items: center;
     justify-content: space-around;
-    align-items: center ;
 }
-
-.header-home ul{
+nav ul{
     display: flex;
-    list-style: none;
     gap: 40px;
+    list-style: none;
 }
 
+nav ul a{
+    text-decoration: none;
+}
 .images-login{
     display: flex;
-    align-items: center;
     gap: 24px;
+}
+
+.button-login{
+    border: 1px solid rgba(0, 160, 0, 1)  ;
+    border-radius: 10px;
+    color:  rgba(0, 160, 0, 1);
+    width: 105px;
+}
+
+
+.active{
+    color: rgba(0, 160, 0, 1);
+}
+
+.div-ti{
+    margin: 40px 100px;
+    width: 563px;
+   ;
+
+}
+
+.div-jao{
+    display: flex;
+    margin-bottom: 12px ;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+    width: 534px;
+}
+
+.green{
+    color: #00A000;
+    margin-bottom: 32px;
+}
+
+.div-jao .div-ti p{
+    width: 503px;
+    height: 80px;
+}
+
+.food{
+    display: flex;
+    width: 651px;
+    height: 494px;
+}
+
+.button-green{
+    background-color: #00A000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    margin-right: 24px;
+}
+
+.button-white{
+    color: #00A000;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #00A000;
+    padding: 16px 32px;
 }
