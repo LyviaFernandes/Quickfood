@@ -6,3 +6,7 @@
 body {
     font-family: 'Gilroy', sans-serif; 
 }
+
+*{
+    margin: 0;
+}
