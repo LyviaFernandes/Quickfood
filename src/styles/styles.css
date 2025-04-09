@@ -21,15 +21,15 @@ nav ul a{
 }
 
 .button-login{
-    border: 1px solid rgba(0, 160, 0, 1)  ;
+    border: 1px solid var(--color-Green)  ;
     border-radius: 10px;
-    color:  rgba(0, 160, 0, 1);
+    color:  var(--color-Green);
     width: 105px;
 }
 
 
 .active{
-    color: rgba(0, 160, 0, 1);
+    color: var(--color-Green);
 }
 
 .div-ti{
@@ -52,7 +52,7 @@ h1{
 }
 
 .green{
-    color: #00A000;
+    color: var(--color-Green);
     margin-bottom: 32px;
 }
 
@@ -68,23 +68,27 @@ h1{
 }
 
 .button-green{
-    background-color: #00A000;
+    background-color: var(--color-Green);
     border-radius: 10px;
-    color: #fff;
+    color: var(--color-White);
     border: none;
     padding: 16px 32px;
     margin-right: 24px;
 }
 
 .button-white{
-    color: #00A000;
+    color: var(--color-Green);
     border-radius: 10px;
-    background-color: #fff;
-    border: 1px solid #00A000;
+    background-color: var(--color-White);
+    border: 1px solid var(--color-Green);
     padding: 16px 32px;
 }
 
 /* ---------------Choose------------------- */
+
+.background-color{
+    background-color: var();
+}
 
 .big-tipografia{    
     text-align: center;
@@ -97,7 +101,7 @@ h1{
 
 .big-tipografia p{    
     margin-top: 0px;
-    color: #999999;
+    color: var(--color-Grey);
 }
 
 .div-imgs{
@@ -118,7 +122,7 @@ h1{
 .choose-container p{
     width: 216px;
     margin-top: 9px;
-    color: #999999;
+    color: var(--color-Grey);
 }
 
 .choose-numbers{
@@ -172,8 +176,8 @@ h1{
 }
 
 .plates-salad button{
-    background-color: #00A000;
-    color: #fff;
+    background-color: var(--color-Green);
+    color: var(--color-White);
     border: none;
     border-radius: 8px;
     width: 352px;
@@ -182,6 +186,11 @@ h1{
 }
 
 /* ------------------------clients---------------------- */
+
+.clients-color{
+    background-color: var(--color-bgGrey);
+    padding-bottom: 100px;
+}
 
 .clients-feedbacks{
     display: flex;
@@ -206,20 +215,141 @@ h1{
 }
 
 .feedbacks{
+    display: flex;
     width: 399px;
-    height: 400px;
     justify-content: center;
-    padding-top: 60px;
+    padding: 40px 0px;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background-color: var(--color-White);
 }
 
 .feedbacks h3{
-    margin: 24px 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 28px;
+
 }
 
 .feedbacks p{
     width: 319px;
     margin: 0px 40px;
+    font-size: 18px;
+    color: var(--color-Grey);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.clients-start{
+    line-height: 1.5;
+}
+
+/* ----------------------About Us----------------------- */
+
+.about-us{
+    display: flex   ;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.About-text h2{
+    font-size: 40px;
+    margin: 24px 82px 24px 100px;
+}
+
+.About-text p{
+    font-size: 18px;
+    color: var(--color-Grey);
+    margin: 24px 82px 24px 100px;
+    width: 558px;
+    height: 130px;
+    line-height: 1.5;
+    
+}
+
+.About-text button{
+    margin: 24px 82px 24px 100px;
+    border-radius: 10px;
+    border: none;
+    color: var(--color-White);
+    background-color: var(--color-Green);
+    padding: 16px 32px;
+}   
+
+/* ------------------Newsteller-------------------- */
+
+.newsteller{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.newsteller-email{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsteller-text h2{
+    font-size: 48px;
+}
+
+.newsteller-text p{
+    font-size: 18px;
+    color: var(--color-Grey);
+    margin-top: 8px;
+}
+
+.newsteller-email input{
+    border: 1px solid var(--color-Grey);
+    border-radius: 8px 0 0 8px;
+    width: 718px;
+    padding: 24px 24px;
+    border-right: none;
+}
+
+.newsteller-email button{
+    border-radius: 10px;
+    border: none;
+    color: var(--color-White);
+    background-color: var(--color-Green);
+    padding: 16px 32px;
+}
+
+.btn-input{
+    padding: 8px;
+    border:  1px solid var(--color-Grey);
+    border-radius: 0px 8px 8px 0px;
+    border-left: none;
+}
+
+.new-color{
+    background-color: var(--color-bgGrey);
+}
+
+/* ----------------footer------------------ */
+
+.green-section{
+    background-color: var(--color-Green);
+}
+
+.the-end{
+    color: var(--color-White);
+    display: flex;
+    padding: 100px;
+    gap: 40px;
+}
+
+.social-midia-img{
+    align-items: center;
+    padding-top: 24px;
+}
+
+.last-text{
+   display: flex;
+   line-height: 2;
 }
