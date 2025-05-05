@@ -48,7 +48,7 @@ QuickFood é um projeto desenvolvido com base em um protótipo do Figma, com o o
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Tela](https://github.com/maridabrins/MD-QuickFood/blob/main/thumb.png)<br>
+![Tela](https://github.com/user-attachments/assets/6e7105bd-0714-4072-9949-a6b824c384da)<br>
 <!-- ---------------------------------------------------------------------- -->
 
 <!-- MODELO DE COMO EXECUTAR O PROJETO -->
